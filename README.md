@@ -20,20 +20,14 @@ The **ALX Listing App** is a web application designed to emulate an Airbnb-style
 ```
 .
 ├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable components
-│ ├── interfaces/ # TypeScript interfaces
-│ ├── pages/ # Page components
-│ ├── redux/ # Redux slices and store
-│ ├── services/ # API services and utility functions
-│ ├── styles/ # Global and Tailwind styles
-│ ├── App.tsx # Main app component
-│ ├── index.tsx # Application entry point
-│ └── ...other files
+│ ├── assets/
+├── components/ # Reusable components
+├── interfaces/ # TypeScript interfaces
+├── constants/ # store any reusable data or strings such as API URLs
 ├── README.md # Documentation
 ├── package.json # Dependencies and scripts
 └── tsconfig.json # TypeScript configuration
-n
+
 ```
 
 ### **Key Directories**
