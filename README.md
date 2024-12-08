@@ -17,13 +17,14 @@ The **ALX Listing App** is a web application designed to emulate an Airbnb-style
 
 ## **Project Structure**
 
-├── public/
-│├── assets/ # Static files such as images, icons, etc.
+.
+├── public/ # Static assets
 ├── src/
-│ ├── components/ # Reusable React components
-│ ├── interfaces/ # TypeScript interfaces for type safety
-│ ├── constants/ # Static constants and configuration files
-│ ├── pages/ # Next.js pages for routing
+│ ├── components/ # Reusable components
+│ ├── interfaces/ # TypeScript interfaces
+│ ├── pages/ # Page components
+│ ├── redux/ # Redux slices and store
+│ ├── services/ # API services and utility functions
 │ ├── styles/ # Global and Tailwind styles
 │ ├── App.tsx # Main app component
 │ ├── index.tsx # Application entry point
@@ -31,6 +32,7 @@ The **ALX Listing App** is a web application designed to emulate an Airbnb-style
 ├── README.md # Documentation
 ├── package.json # Dependencies and scripts
 └── tsconfig.json # TypeScript configuration
+n
 
 ### **Key Directories**
 
