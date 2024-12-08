@@ -1,4 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
+
+# **ALX Listing App**
+
+The **ALX Listing App** is a web application designed to emulate an Airbnb-style listing page. It features a clean and dynamic UI to display property listings, complete with relevant details such as images, descriptions, and prices. This project is built using **Next.js**, **TypeScript**, and **Tailwind CSS**, and aims to deliver a seamless user experience.
+
+---
+
+## **Project Goals**
+
+- Create a user-friendly interface for property listings.
+- Ensure type safety and reusability with **TypeScript**.
+- Design responsive and visually appealing layouts using **Tailwind CSS**.
+- Structure the project for scalability and maintainability.
+
+---
+
+## **Project Structure**
+
+├── public/
+│├── assets/ # Static files such as images, icons, etc.
+├── src/
+│ ├── components/ # Reusable React components
+│ ├── interfaces/ # TypeScript interfaces for type safety
+│ ├── constants/ # Static constants and configuration files
+│ ├── pages/ # Next.js pages for routing
+│ ├── styles/ # Global and Tailwind styles
+│ ├── App.tsx # Main app component
+│ ├── index.tsx # Application entry point
+│ └── ...other files
+├── README.md # Documentation
+├── package.json # Dependencies and scripts
+└── tsconfig.json # TypeScript configuration
+
+### **Key Directories**
+
+- **components/**: Contains reusable React components like `Card`, `Button`, and `Navbar`.
+- **interfaces/**: Includes TypeScript interfaces such as `ListingProps` and `ButtonProps` for maintaining type safety across the project.
+- **constants/**: Stores static data, configurations, or default values used throughout the app.
+- **public/assets/**: Houses static files such as images, icons, and other media assets that are directly accessible.
+
+---
+
+## **Setup Instructions**
+
+### **Prerequisites**
+
+1. Install [Node.js](https://nodejs.org/) (LTS version recommended).
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/alx-listing-app.git
+   cd alx-listing-app
+   ```
 
 ## Getting Started
 
