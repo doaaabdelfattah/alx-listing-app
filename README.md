@@ -17,6 +17,7 @@ The **ALX Listing App** is a web application designed to emulate an Airbnb-style
 
 ## **Project Structure**
 
+```
 .
 ├── public/ # Static assets
 ├── src/
@@ -33,6 +34,7 @@ The **ALX Listing App** is a web application designed to emulate an Airbnb-style
 ├── package.json # Dependencies and scripts
 └── tsconfig.json # TypeScript configuration
 n
+```
 
 ### **Key Directories**
 
